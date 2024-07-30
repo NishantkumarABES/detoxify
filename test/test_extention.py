@@ -4,10 +4,11 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 # Path to your ChromeDriver executable
-CHROMEDRIVER_PATH = r'D:\User Data\Desktop\nishant\PYTHON\selenium\chromedriver.exe'
+CHROMEDRIVER_PATH = r'selenium\chromedriver.exe'
 
 # Path to your extension directory
-EXTENSION_PATH = r'D:\User Data\Desktop\detoxify\test\extension'
+#r'D:\Documents\GitHub\detoxify\test\extension'- naman
+EXTENSION_PATH = r'D:\Documents\GitHub\detoxify\test\extension'
 
 # Configure Chrome options
 chrome_options = Options()
