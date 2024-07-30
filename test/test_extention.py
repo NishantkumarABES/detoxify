@@ -4,10 +4,10 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 # Path to your ChromeDriver executable
-CHROMEDRIVER_PATH = '/path/to/chromedriver'
+CHROMEDRIVER_PATH = r'D:\User Data\Desktop\nishant\PYTHON\selenium\chromedriver.exe'
 
 # Path to your extension directory
-EXTENSION_PATH = '/path/to/your/extension/folder'
+EXTENSION_PATH = r'D:\User Data\Desktop\detoxify\test\extension'
 
 # Configure Chrome options
 chrome_options = Options()
@@ -28,7 +28,7 @@ time.sleep(5)  # Adjust sleep time as needed
 # Locate and interact with elements in the extension popup if needed
 
 # Example: Locate the extension icon and click it (adjust selector as needed)
-# driver.find_element_by_id('extension-icon-id').click()
+driver.find_element_by_id('extension-icon-id').click()
 
 # Wait and perform tests
 time.sleep(10)  # Adjust sleep time as needed for testing
